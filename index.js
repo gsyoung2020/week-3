@@ -36,8 +36,8 @@ console.log(basic);
 
 // TODO: ADD CODE HERE
 
-var firstName = "Grant";
-var lastName = "Young";
+let firstName = "Grant";
+let lastName = "Young";
 console.log(firstName+" "+lastName);
 
 /* Challenge #3
@@ -53,8 +53,8 @@ console.log(firstName+" "+lastName);
  */
 
 // TODO: ADD CODE HERE
-var price = 9.99;
-var quantity = 5;
+const price = 9.75;
+const quantity = 5;
 var total = price*quantity;
 
 console.log("$"+total);
@@ -141,6 +141,7 @@ function stringToUpper(str){
  return str.toUpperCase();
 }
 console.log(stringToUpper("coding hard"));
+
 /* Challenge #8
  * Create a function that accepts a number argument and returns double its value
  *
@@ -161,8 +162,8 @@ console.log(stringToUpper("coding hard"));
 function multiplyByTwo (number){
     return number * 2
 }
-var num1 = multiplyByTwo(1);
-var num2 = multiplyByTwo(5);
-var num3 = multiplyByTwo(10);
+let num1 = multiplyByTwo(1);
+let num2 = multiplyByTwo(5);
+let num3 = multiplyByTwo(10);
 
-console.log(num1+" "+num2+" "+num3);
+console.log(`${num1} ${num2} ${num3}`);
